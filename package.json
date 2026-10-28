@@ -1,0 +1,15 @@
+{
+  "name": "smart-greenhouse-dashboard-v2",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Smart Greenhouse CPS Monitoring & Evaluation Dashboard V2",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "sim": "node --env-file=.env simulator.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "latest",
+    "express": "^4.19.0",
+    "mqtt": "^5.10.0"
+  }
+}
